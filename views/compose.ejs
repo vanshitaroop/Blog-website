@@ -1,0 +1,34 @@
+<%- include("partials/header") -%>
+
+
+<h1>Compose</h1>
+
+
+  <!-- <input type="textarea" width="10" name="content" value="">
+
+  <button type="submit" name="button">Publish</button> -->
+
+
+<form class="" action="/compose" method="post">
+  <div class="form-group">
+    <label >Title</label>
+    <input type="text" class="form-control" name="PostTitle" >
+    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+  </div>
+  <div class="form-group">
+    <label >Post</label>
+    <textarea name="postbody" rows="8" cols="8" class = "form-control"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
